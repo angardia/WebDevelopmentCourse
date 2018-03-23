@@ -1,0 +1,332 @@
+﻿body 
+{
+    direction:rtl;
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+#background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1; /*שלילי כדי לקבל עדיפות נמוכה - שהמניאק לא יזוז */
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+}
+ul#navi {
+    list-style: none;
+    padding-bottom: 144px;
+}
+
+    ul#navi li {
+        display: inline-block;
+        float: right;
+    }
+
+        ul#navi li a {
+            display: block;
+            background-color: rebeccapurple;
+            color: white;
+            width: 240px;
+            height: 30px;
+            padding-top: 10px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+nav#navi ul li a:hover {
+    background-color: purple;
+}
+
+ul#navi li a:active {
+    opacity: 0.7;
+}
+
+ul#navi1 {
+    list-style: none;
+}
+
+    ul#navi1 li {
+        display: inline-block;
+        float: right;
+    }
+
+        ul#navi1 li a {
+            display: block;
+            background-color: rebeccapurple;
+            color: white;
+            width: 240px;
+            height: 30px;
+            padding-top: 10px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+nav#navi1 ul li a:hover {
+    background-color: purple;
+}
+
+ul#navi1 li a:active {
+    opacity: 0.7;
+}
+
+
+#container h1 {
+    text-align: center;
+    font-size: 100px;
+    color: mediumpurple;
+    border: groove 5px purple;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ border-width: 5px;
+
+}
+
+.round {
+    float: left;
+    padding: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+}
+.round2 {
+    float: left;
+    padding: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+}
+.round3 {
+    float: left;
+    padding: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+}
+.round4 {
+    float: left;
+    padding: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+}
+.round5 {
+    float: left;
+    padding: 60px;
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+    transition: transform .2s;
+}
+    .round5:hover {
+        transform: scale(2);
+    }
+.round6 {
+    float: left;
+    padding: 60px;
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+    transition: transform .2s;
+}
+.round6:hover {
+    transform: scale(2);
+}
+
+.round7 {
+    float: left;
+    padding: 60px;
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+    transition: transform .2s;
+}
+.round7:hover {
+    transform: scale(2);
+}
+.round8 {
+    float: left;
+    padding: 60px;
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+    transition: transform .2s;
+}
+.round8:hover {
+    transform: scale(2);
+}
+.round9 {
+    float: left;
+    padding: 60px;
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    transition: transform .2s;
+    margin-top: -88px;
+}
+
+.round9:hover {
+        transform: scale(2);
+    }
+
+
+.round10 {
+    float: left;
+    padding: 60px;
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+    transition: transform .2s;
+}
+
+    .round10:hover {
+        transform: scale(2);
+    }
+
+.round11 {
+    float: left;
+    padding: 60px;
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+    transition: transform .2s;
+}
+
+    .round11:hover {
+        transform: scale(2);
+    }
+
+.round12 {
+    float: left;
+    padding: 60px;
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+    transition: transform .2s;
+}
+
+    .round12:hover {
+        transform: scale(2);
+    }
+.round13 {
+    float: left;
+    padding: 60px;
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+    transition: transform .2s;
+}
+
+    .round13:hover {
+        transform: scale(2);
+    }
+
+nav#pirur {
+    padding: 52px 34px;
+    list-style: none;
+    background-color: none;
+}
+
+    nav#pirur li {
+        background-color: none;
+        color: rebeccapurple;
+        width: 240px;
+        height: 30px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: right;
+        display: inline-block;
+        font-size: 28px;
+        margin-right: -119px
+    }
+
+        nav#pirur li a:after {
+            content: " < ";
+        }
+
+        nav#pirur li a:last-child:after {
+            content: " ";
+        }
+footer h3 {
+    background-color: purple;
+    color: purple;
+    font-weight: bold;
+    width: 160px;
+}
+
+footer h3 {
+    width: 150px;
+    height: 20px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: darkviolet;
+    }
+
+    100% {
+        background-color: plum;
+    }
+}
+#pirur ul {
+    width: 247px;
+    height: 41px;
+    animation: pulse 2s infinite;
+    padding-right: 126px;
+}
+
+@keyframes pulse  {
+    0% {
+        background-color: #AA8CC5;
+    }
+
+    100% {
+        background-color: #d0c4f9;
+    }
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#facebook {
+    width: 50px;
+    height: 50px;
+}
+
+    #facebook:hover {
+        opacity: 0.7;
+    }
+.hobbylist {
+    font-size: 18px;
+    color: purple;
+    margin-top: 10px;
+    margin-bottom: -35px;
+}
+.hobbyhead {
+    font-size: 20px;
+    color: purple;
+
+}
+
+.infopage{
+    color:rebeccapurple;
+    font-size:20px;
+}
+    .infopage p {
+        color: rebeccapurple;
+        font-size: 18px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
