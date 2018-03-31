@@ -1,0 +1,119 @@
+body {
+    direction: rtl;
+    background: url('../pics/download.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+div#container {
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+    height: 100%;
+    overflow: hidden;
+}
+div.logo {
+    padding-bottom: 50px;
+
+}
+
+label{
+     display:block;
+     margin-top:10px;
+}
+
+input[type ='text'] , input[type ='password'] ,textarea , select {
+    display:block;
+    margin-bottom:15px;
+}
+
+input[type ='submit']
+{
+ margin-top:10px;
+}
+
+
+div.header_first h1 {
+    font-size: 60px;
+    color: #018287;
+    font-family: Arial;
+    width: 80%;
+    padding-bottom: 50px;
+    padding-right: 62px;
+}
+div.header_first {
+    margin-right: 220px;
+    padding-bottom: 50px;
+}
+
+form {
+    margin-right: 220px;
+    padding-bottom: 50px;
+    float:right;
+}
+    form p {
+        float: right;
+        padding-bottom: 10px;
+    }
+
+div.header_first ul li {
+    padding-bottom: 10px;
+}
+div.header_first h2 {
+    padding-bottom: 10px;
+}
+
+div .floatLeft {
+    float: left;
+    margin: .3em -4.3em 4em 4em;
+}
+
+.fa {
+    padding: 17px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: -11px 2px;
+    border-radius: 113%;
+    float: left
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 960px;
+    height: 60px;
+    background-color: #f5f5f5;
+    display: block;
+}
+    footer p {
+        margin-right: 730px;
+        font-family: Arial;
+    }
+#container .header .header_first p{
+    padding-bottom:10px;
+    font-size:16px;
+    font-weight:bold;
+}
+.floatLeft {
+    height: 242px;
+    width: 431px;
+}
+
+    .floatLeft:hover {
+        content: url('http://localhost:55718/pics/dfdf.PNG');
+        height: 242px;
+        width: 431px;
+    }
