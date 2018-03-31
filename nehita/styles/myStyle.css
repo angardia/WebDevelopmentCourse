@@ -113,7 +113,7 @@ footer {
 }
 
     .floatLeft:hover {
-        background-image: url('../pics/tryagain.jpg');
+        content: url('../pics/tryagain.jpg');
         height: 242px;
         width: 431px;
     }
